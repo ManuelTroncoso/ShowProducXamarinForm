@@ -1,0 +1,13 @@
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\bin\Debug\netstandard2.0\HSportPlus.deps.json
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\bin\Debug\netstandard2.0\HSportPlus.dll
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.csprojAssemblyReference.cache
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.csproj.CoreCompileInputs.cache
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.AssemblyInfoInputs.cache
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.AssemblyInfo.cs
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\bin\Debug\netstandard2.0\HSportPlus.pdb
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.dll
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\HSportPlus.pdb
+C:\Users\manuel.troncoso\Desktop\HSportPlus\HSportPlus\HSportPlus\obj\Debug\netstandard2.0\ProductDetail.xaml.g.cs
