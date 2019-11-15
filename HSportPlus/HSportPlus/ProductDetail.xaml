@@ -15,6 +15,13 @@
 
             <Image Source="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
                    Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="Start"></Image>
+
+            <RelativeLayout HorizontalOptions="FillAndExpand">
+                <Button Text="Order" 
+                       x:Name="OrderBtn"></Button>
+                <Button Text="Favourite">
+                        </Button>
+            </RelativeLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
