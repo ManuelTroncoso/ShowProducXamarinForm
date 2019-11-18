@@ -1,27 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HSportPlus.ProductDetail">
+             x:Class="HSportPlus.ProductDetail"
+             xmlns:design="clr-namespace:HPlusSports.Design;assembly:HSportsPlus"
+             BindingContext="{x:Static design:ProductModel.Product}">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="10">
             <StackLayout Orientation="Horizontal">
                 <Label Text="Name" FontSize="Large"></Label>
-                <Label Text="ProductName" FontSize="Large"></Label>
+                <Label Text="{Binding Path=Name}" FontSize="Large"></Label>
             </StackLayout>
             <StackLayout Orientation="Vertical">
                 <Label Text="Description"></Label>
-                <Label Text=" DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"></Label>
+                <Label Text="{Binding Path=Description}"></Label>
             </StackLayout>
 
-            <Image Source="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+            <Image Source="{Binding Path=ImagenUri}"
                    Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="Start"></Image>
 
-            <RelativeLayout HorizontalOptions="FillAndExpand">
+            <RelativeLayout>
                 <Button Text="Order" 
                        x:Name="OrderBtn"></Button>
-                <Button Text="Favourite">
-                        </Button>
             </RelativeLayout>
+
+            <Button Text="Favourite">
+                        </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

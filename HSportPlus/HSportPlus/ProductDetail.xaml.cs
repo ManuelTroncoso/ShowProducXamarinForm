@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HPlusSports.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +15,14 @@ namespace HSportPlus
 	{
 		public ProductDetail ()
 		{
-			InitializeComponent ();
-            
+			InitializeComponent ();    
 		}
-	}
+
+        public ProductDetail(Product target)
+        {
+            InitializeComponent();
+            BindingContext = target;
+
+        }
+    }
 }
